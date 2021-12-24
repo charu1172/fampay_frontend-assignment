@@ -1,0 +1,16 @@
+.header_maincont {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.header_cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo_name {
+  color: #4c5454;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+}

@@ -1,0 +1,72 @@
+.hc3_maincont {
+  overflow-x: hidden;
+  border-radius: 10px;
+  color: white;
+}
+
+.hc3item_maincont {
+  position: relative;
+}
+
+.hc3item_cont {
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  cursor: pointer !important;
+  width: 100%;
+  padding: 2rem 4rem;
+  margin-bottom: 1rem;
+  z-index: 1;
+  position: relative;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.button {
+  height: 2.5rem;
+  width: 10rem;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  max-width: 100%;
+}
+
+.back_maincont {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  padding: 4rem 2rem;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.backbutton {
+  background: #f7f6f3;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+}
+
+.backtext {
+  font-size: 10px;
+}

@@ -1,0 +1,12 @@
+.hc9_maincont {
+  display: flex;
+  white-space: nowrap;
+  overflow: auto;
+  margin-bottom: 1rem;
+}
+
+.hc9item_img {
+  background-repeat: no-repeat;
+  margin: 0 0.6rem;
+  border-radius: 10px;
+}

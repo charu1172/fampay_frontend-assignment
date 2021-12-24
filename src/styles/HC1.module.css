@@ -1,0 +1,48 @@
+.hc1_details {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  color: #000000;
+}
+
+.hc1item_img {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 1rem;
+}
+
+.hc1_maincont {
+  display: flex;
+  margin: 10px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.hc1item_maincont {
+  background-color: white;
+  min-height: 4rem;
+  margin: 0 0.6rem;
+  background-size: 200px;
+  padding: 0 4rem;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.hc1non {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hc1itemnon_maincont {
+  background-color: white;
+  min-height: 4rem;
+  padding: 0 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+  width: fit-content
+}
